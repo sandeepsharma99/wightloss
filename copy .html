@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --bg-primary: #ffffff;
+        --bg-secondary: #0374ef;
+        --bg-tertiary: #1c1b42;
+
+        --text-primary: #ffffff;
+        --text-secondary: #707070;
+        --text-tertiary: #2d2d2d;
+        --text-fourth: #000000;
+      }
+
+      .hero {
+        background-image: url("./assets/images/image.avif");
+        height: 300px;
+        background-repeat: no-repeat;
+        /* background-size: contain; */
+        height: auto;
+        /* min-height: 280px; */
+      }
+      .tag__icon {
+        color: var(--bg-secondary);
+      }
+
+      .mycard {
+        position: relative;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      }
+      .fa-star {
+        color: rgb(25, 182, 122);
+        font-size: 15px;
+      }
+
+      .count {
+        text-align: center;
+        line-height: 40px;
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        top: 10px;
+        left: -15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        /* padding: 20px; */
+        display: inline-block;
+        background-color: white;
+      }
+
+      .sidebar {
+        background-color: #ddd;
+      }
+
+      .sidebar__det {
+        transition: all 0.5ms ease;
+      }
+      .sidebar__det:hover {
+        color: var(--bg-secondary);
+        cursor: pointer;
+      }
+      .read__more{
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+      .read__more:hover .fa-angle-right{
+        transform: translateX(2px);
+        color: var(--bg-secondary);
+      }
+
+      .footer {
+        background-color: var(--text-fourth);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="topnav text-center">
+        <p class="mb-0 border-bottom border-1">
+          We earn a commission from the offers on this page, which influences
+          which offers are displayed
+        </p>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container d-flex justify-content-between">
+          <a class="" href="#">
+            <img
+              src="../assets/images/logo.svg"
+              alt="logo"
+              style="width: 200px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Knowledge</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Review</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="hero">
+        <div class="py-4 container hero__det">
+          <h1 class="py-4">Best Weight Loss Injections 2025</h1>
+          <p class="col-8">
+            Tired of overeating? Compare top weight loss brands to find the best
+            fit for your unique needs. Explore treatment plans, such as Ozempic®
+            and pick a weight loss med to get on track and kickstart a healthier
+            you.
+          </p>
+          <div class="d-flex justify-content-between">
+            <p>
+              <i class="fa-solid fa-circle-check me-2"></i>Last Updated:
+              September 2025
+            </p>
+            <p id="adDis">Advertising Disclosure</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container features">
+        <ul class="list-unstyled d-flex gap-3">
+          <li>
+            <i class="fa-solid fa-rotate-right me-2 tag__icon"></i>Fast Approval
+          </li>
+          <li>
+            <i class="fa-solid fa-truck-fast me-2 tag__icon"></i>Free Shipping
+          </li>
+          <li>
+            <i class="fa-solid fa-tag me-2 tag__icon"></i>Exclusive Coupons
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-check me-2 tag__icon"></i>Online
+            Prescription
+          </li>
+        </ul>
+      </div>
+    </section>
+<!-- Cards Section -->
+    <section class="container">
+
+      <div class="card border-0 mycard py-5 mb-5">
+        <div class="row row row-cols-1 align-items-center">
+          <div class="left col-md-3">
+            <img src="./assets/images/Roman-logo-1.svg" class="img-fluid" alt="" />
+          </div>
+
+          <div class="center col-md-4">
+            <h6>Proven Weight Loss with Personalized Care</h6>
+            <ul class="list-unstyled">
+              <li>
+                <span><i class="fa-solid fa-check"></i>No Hidden Fees</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Fastest Working GLP-1 for Half
+                the List Price
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Potential to lose up to 20% of
+                body weight a year
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Get Qualified for Ozempic®,
+                Wegovy®, or Zepbound®
+              </li>
+            </ul>
+          </div>
+
+          <div class="rating col-md-3 d-inline-flex">
+            <h1 class="fw-bold">9.7</h1>
+            <p>
+              <span class="d-block"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>our score</span>
+            </p>
+          </div>
+          <div class="right col-md-2">
+            <a href="" class="btn btn-primary px-5">Visit Site</a>
+          </div>
+        </div>
+        <div class="count">1</div>
+      </div>
+
+      <div class="card border-0 mycard py-5 mb-5">
+        <div class="row row row-cols-1 align-items-center">
+          <div class="left col-md-3">
+            <img src="./assets/images/Remedy-Meds-Logo-removebg-preview.svg" class="img-fluid" alt="" />
+          </div>
+
+          <div class="center col-md-4">
+            <h6>Proven Weight Loss with Personalized Care</h6>
+            <ul class="list-unstyled">
+              <li>
+                <span><i class="fa-solid fa-check"></i>No Hidden Fees</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Fastest Working GLP-1 for Half
+                the List Price
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Potential to lose up to 20% of
+                body weight a year
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Get Qualified for Ozempic®,
+                Wegovy®, or Zepbound®
+              </li>
+            </ul>
+          </div>
+
+          <div class="rating col-md-3 d-inline-flex">
+            <h1 class="fw-bold">9.7</h1>
+            <p>
+              <span class="d-block"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>our score</span>
+            </p>
+          </div>
+          <div class="right col-md-2">
+            <a href="" class="btn btn-primary px-5">Visit Site</a>
+          </div>
+        </div>
+        <div class="count">1</div>
+      </div>
+
+      <div class="card border-0 mycard py-5 mb-5">
+        <div class="row row row-cols-1 align-items-center">
+          <div class="left col-md-3">
+            <img src="./assets/images/Medvi_l.svg" class="img-fluid" alt="" />
+          </div>
+
+          <div class="center col-md-4">
+            <h6>Proven Weight Loss with Personalized Care</h6>
+            <ul class="list-unstyled">
+              <li>
+                <span><i class="fa-solid fa-check"></i>No Hidden Fees</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Fastest Working GLP-1 for Half
+                the List Price
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Potential to lose up to 20% of
+                body weight a year
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Get Qualified for Ozempic®,
+                Wegovy®, or Zepbound®
+              </li>
+            </ul>
+          </div>
+
+          <div class="rating col-md-3 d-inline-flex">
+            <h1 class="fw-bold">9.7</h1>
+            <p>
+              <span class="d-block"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>our score</span>
+            </p>
+          </div>
+          <div class="right col-md-2">
+            <a href="" class="btn btn-primary px-5">Visit Site</a>
+          </div>
+        </div>
+        <div class="count">1</div>
+      </div>
+
+      <div class="card border-0 mycard py-5 mb-5">
+        <div class="row row row-cols-1 align-items-center">
+          <div class="left col-md-3">
+            <img src="./assets/images/clinicSecret.svg" class="img-fluid" alt="" />
+          </div>
+
+          <div class="center col-md-4">
+            <h6>Proven Weight Loss with Personalized Care</h6>
+            <ul class="list-unstyled">
+              <li>
+                <span><i class="fa-solid fa-check"></i>No Hidden Fees</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Fastest Working GLP-1 for Half
+                the List Price
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Potential to lose up to 20% of
+                body weight a year
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Get Qualified for Ozempic®,
+                Wegovy®, or Zepbound®
+              </li>
+            </ul>
+          </div>
+
+          <div class="rating col-md-3 d-inline-flex">
+            <h1 class="fw-bold">9.7</h1>
+            <p>
+              <span class="d-block"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>our score</span>
+            </p>
+          </div>
+          <div class="right col-md-2">
+            <a href="" class="btn btn-primary px-5">Visit Site</a>
+          </div>
+        </div>
+        <div class="count">1</div>
+      </div>
+
+      <div class="card border-0 mycard py-5 mb-5">
+        <div class="row row row-cols-1 align-items-center">
+          <div class="left col-md-3">
+            <img src="./assets/images/sprout.svg" class="img-fluid" alt="" />
+          </div>
+
+          <div class="center col-md-4">
+            <h6>Proven Weight Loss with Personalized Care</h6>
+            <ul class="list-unstyled">
+              <li>
+                <span><i class="fa-solid fa-check"></i>No Hidden Fees</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Fastest Working GLP-1 for Half
+                the List Price
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Potential to lose up to 20% of
+                body weight a year
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Get Qualified for Ozempic®,
+                Wegovy®, or Zepbound®
+              </li>
+            </ul>
+          </div>
+
+          <div class="rating col-md-3 d-inline-flex">
+            <h1 class="fw-bold">9.7</h1>
+            <p>
+              <span class="d-block"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>our score</span>
+            </p>
+          </div>
+          <div class="right col-md-2">
+            <a href="" class="btn btn-primary px-5">Visit Site</a>
+          </div>
+        </div>
+        <div class="count">1</div>
+      </div>
+
+      <div class="card border-0 mycard py-5 mb-5">
+        <div class="row row row-cols-1 align-items-center">
+          <div class="left col-md-3">
+            <img src="./assets/images/hers.svg" class="img-fluid" alt="" />
+          </div>
+
+          <div class="center col-md-4">
+            <h6>Proven Weight Loss with Personalized Care</h6>
+            <ul class="list-unstyled">
+              <li>
+                <span><i class="fa-solid fa-check"></i>No Hidden Fees</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Fastest Working GLP-1 for Half
+                the List Price
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Potential to lose up to 20% of
+                body weight a year
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Get Qualified for Ozempic®,
+                Wegovy®, or Zepbound®
+              </li>
+            </ul>
+          </div>
+
+          <div class="rating col-md-3 d-inline-flex">
+            <h1 class="fw-bold">9.7</h1>
+            <p>
+              <span class="d-block"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>our score</span>
+            </p>
+          </div>
+          <div class="right col-md-2">
+            <a href="" class="btn btn-primary px-5">Visit Site</a>
+          </div>
+        </div>
+        <div class="count">1</div>
+      </div>
+
+      <div class="card border-0 mycard py-5 mb-5">
+        <div class="row row row-cols-1 align-items-center">
+          <div class="left col-md-3">
+            <img src="./assets/images/him.svg" class="img-fluid" alt="" />
+          </div>
+
+          <div class="center col-md-4">
+            <h6>Proven Weight Loss with Personalized Care</h6>
+            <ul class="list-unstyled">
+              <li>
+                <span><i class="fa-solid fa-check"></i>No Hidden Fees</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Fastest Working GLP-1 for Half
+                the List Price
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Potential to lose up to 20% of
+                body weight a year
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>Get Qualified for Ozempic®,
+                Wegovy®, or Zepbound®
+              </li>
+            </ul>
+          </div>
+
+          <div class="rating col-md-3 d-inline-flex">
+            <h1 class="fw-bold">9.7</h1>
+            <p>
+              <span class="d-block"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <span>our score</span>
+            </p>
+          </div>
+          <div class="right col-md-2">
+            <a href="" class="btn btn-primary px-5">Visit Site</a>
+          </div>
+        </div>
+        <div class="count">1</div>
+      </div>
+
+    </section>
+
+    <div class="container border-bottom border-1"></div>
+
+    <div class="container">
+      <div class="row row-cols-1">
+        <div class="col-md-8">
+          
+          <h1 class="fs-3">What You Need To Know About Weight Loss Injections</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus corrupti natus tempore quisquam tenetur ullam rerum exercitationem obcaecati dicta dolorum, voluptate quas minus ab pariatur fuga omnis ex, tempora aliquid!lorem300
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tempora hic voluptas et doloremque id non a repellendus! Minima iure explicabo incidunt iste praesentium perferendis provident sit quae quibusdam ea eligendi recusandae dignissimos nihil, est itaque rerum suscipit dolorum. Doloremque dolorem veritatis, voluptate necessitatibus mm incidunt, cumque veritatis quas impedit adipisci necessitatibus fugit reiciendis! Asperiores, laudantium? Ipsum ipsa adipisci consequuntur amet, quia molestias cupiditate eius non dolor repellat debitis laudantium cumque provident mollitia ducimus nam expedita commodi, nemo reiciendis alias fugiat ab velit. Tempore aut debitis modi a itaque inventore, at ex ut placeat architecto nostrum eaque praesentium fuga, est eligendi molestiae impedit sed! Ea, veritatis. Libero deleniti quaerat fugit placeat, quas provident debitis eum vitae maiores id ducimus dolor corrupti totam sit illum, voluptate molestiae obcaecati ad nostrum tempore dignissimos facilis, aliquam qui! Ipsa quia voluptatibus et repudiandae error voluptate, provident nobis. Veniam illum aspernatur dicta harum accusamus delectus impedit debitis repellat ducimus dignissimos ab, error nisi totam cumque. Molestias nesciunt maiores a.
+          </p>
+          
+          <h1 class="fs-3">What You Need To Know About Weight Loss Injections</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus corrupti natus tempore quisquam tenetur ullam rerum exercitationem obcaecati dicta dolorum, voluptate quas minus ab pariatur fuga omnis ex, tempora aliquid!lorem300
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tempora hic voluptas et doloremque id non a repellendus! Minima iure explicabo incidunt iste praesentium perferendis provident sit quae quibusdam ea eligendi recusandae dignissimos nihil, est itaque rerum suscipit dolorum. Doloremque dolorem veritatis, voluptate necessitatibus mm incidunt, cumque veritatis quas impedit adipisci necessitatibus fugit reiciendis! Asperiores, laudantium? Ipsum ipsa adipisci consequuntur amet, quia molestias cupiditate eius non dolor repellat debitis laudantium cumque provident mollitia ducimus nam expedita commodi, nemo reiciendis alias fugiat ab velit. Tempore aut debitis modi a itaque inventore, at ex ut placeat architecto nostrum eaque praesentium fuga, est eligendi molestiae impedit sed! Ea, veritatis. Libero deleniti quaerat fugit placeat, quas provident debitis eum vitae maiores id ducimus dolor corrupti totam sit illum, voluptate molestiae obcaecati ad nostrum tempore dignissimos facilis, aliquam qui! Ipsa quia voluptatibus et repudiandae error voluptate, provident nobis. Veniam illum aspernatur dicta harum accusamus delectus impedit debitis repellat ducimus dignissimos ab, error nisi totam cumque. Molestias nesciunt maiores a.
+          </p>
+          
+          <h1 class="fs-3">What You Need To Know About Weight Loss Injections</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus corrupti natus tempore quisquam tenetur ullam rerum exercitationem obcaecati dicta dolorum, voluptate quas minus ab pariatur fuga omnis ex, tempora aliquid!lorem300
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tempora hic voluptas et doloremque id non a repellendus! Minima iure explicabo incidunt iste praesentium perferendis provident sit quae quibusdam ea eligendi recusandae dignissimos nihil, est itaque rerum suscipit dolorum. Doloremque dolorem veritatis, voluptate necessitatibus mm incidunt, cumque veritatis quas impedit adipisci necessitatibus fugit reiciendis! Asperiores, laudantium? Ipsum ipsa adipisci consequuntur amet, quia molestias cupiditate eius non dolor repellat debitis laudantium cumque provident mollitia ducimus nam expedita commodi, nemo reiciendis alias fugiat ab velit. Tempore aut debitis modi a itaque inventore, at ex ut placeat architecto nostrum eaque praesentium fuga, est eligendi molestiae impedit sed! Ea, veritatis. Libero deleniti quaerat fugit placeat, quas provident debitis eum vitae maiores id ducimus dolor corrupti totam sit illum, voluptate molestiae obcaecati ad nostrum tempore dignissimos facilis, aliquam qui! Ipsa quia voluptatibus et repudiandae error voluptate, provident nobis. Veniam illum aspernatur dicta harum accusamus delectus impedit debitis repellat ducimus dignissimos ab, error nisi totam cumque. Molestias nesciunt maiores a.
+          </p>
+          
+          <h1 class="fs-3">What You Need To Know About Weight Loss Injections</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus corrupti natus tempore quisquam tenetur ullam rerum exercitationem obcaecati dicta dolorum, voluptate quas minus ab pariatur fuga omnis ex, tempora aliquid!lorem300
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tempora hic voluptas et doloremque id non a repellendus! Minima iure explicabo incidunt iste praesentium perferendis provident sit quae quibusdam ea eligendi recusandae dignissimos nihil, est itaque rerum suscipit dolorum. Doloremque dolorem veritatis, voluptate necessitatibus mm incidunt, cumque veritatis quas impedit adipisci necessitatibus fugit reiciendis! Asperiores, laudantium? Ipsum ipsa adipisci consequuntur amet, quia molestias cupiditate eius non dolor repellat debitis laudantium cumque provident mollitia ducimus nam expedita commodi, nemo reiciendis alias fugiat ab velit. Tempore aut debitis modi a itaque inventore, at ex ut placeat architecto nostrum eaque praesentium fuga, est eligendi molestiae impedit sed! Ea, veritatis. Libero deleniti quaerat fugit placeat, quas provident debitis eum vitae maiores id ducimus dolor corrupti totam sit illum, voluptate molestiae obcaecati ad nostrum tempore dignissimos facilis, aliquam qui! Ipsa quia voluptatibus et repudiandae error voluptate, provident nobis. Veniam illum aspernatur dicta harum accusamus delectus impedit debitis repellat ducimus dignissimos ab, error nisi totam cumque. Molestias nesciunt maiores a.
+          </p>
+          
+          <h1 class="fs-3">What You Need To Know About Weight Loss Injections</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus corrupti natus tempore quisquam tenetur ullam rerum exercitationem obcaecati dicta dolorum, voluptate quas minus ab pariatur fuga omnis ex, tempora aliquid!lorem300
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tempora hic voluptas et doloremque id non a repellendus! Minima iure explicabo incidunt iste praesentium perferendis provident sit quae quibusdam ea eligendi recusandae dignissimos nihil, est itaque rerum suscipit dolorum. Doloremque dolorem veritatis, voluptate necessitatibus mm incidunt, cumque veritatis quas impedit adipisci necessitatibus fugit reiciendis! Asperiores, laudantium? Ipsum ipsa adipisci consequuntur amet, quia molestias cupiditate eius non dolor repellat debitis laudantium cumque provident mollitia ducimus nam expedita commodi, nemo reiciendis alias fugiat ab velit. Tempore aut debitis modi a itaque inventore, at ex ut placeat architecto nostrum eaque praesentium fuga, est eligendi molestiae impedit sed! Ea, veritatis. Libero deleniti quaerat fugit placeat, quas provident debitis eum vitae maiores id ducimus dolor corrupti totam sit illum, voluptate molestiae obcaecati ad nostrum tempore dignissimos facilis, aliquam qui! Ipsa quia voluptatibus et repudiandae error voluptate, provident nobis. Veniam illum aspernatur dicta harum accusamus delectus impedit debitis repellat ducimus dignissimos ab, error nisi totam cumque. Molestias nesciunt maiores a.
+          </p>
+          
+          <h1 class="fs-3">What You Need To Know About Weight Loss Injections</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus corrupti natus tempore quisquam tenetur ullam rerum exercitationem obcaecati dicta dolorum, voluptate quas minus ab pariatur fuga omnis ex, tempora aliquid!lorem300
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit tempora hic voluptas et doloremque id non a repellendus! Minima iure explicabo incidunt iste praesentium perferendis provident sit quae quibusdam ea eligendi recusandae dignissimos nihil, est itaque rerum suscipit dolorum. Doloremque dolorem veritatis, voluptate necessitatibus mm incidunt, cumque veritatis quas impedit adipisci necessitatibus fugit reiciendis! Asperiores, laudantium? Ipsum ipsa adipisci consequuntur amet, quia molestias cupiditate eius non dolor repellat debitis laudantium cumque provident mollitia ducimus nam expedita commodi, nemo reiciendis alias fugiat ab velit. Tempore aut debitis modi a itaque inventore, at ex ut placeat architecto nostrum eaque praesentium fuga, est eligendi molestiae impedit sed! Ea, veritatis. Libero deleniti quaerat fugit placeat, quas provident debitis eum vitae maiores id ducimus dolor corrupti totam sit illum, voluptate molestiae obcaecati ad nostrum tempore dignissimos facilis, aliquam qui! Ipsa quia voluptatibus et repudiandae error voluptate, provident nobis. Veniam illum aspernatur dicta harum accusamus delectus impedit debitis repellat ducimus dignissimos ab, error nisi totam cumque. Molestias nesciunt maiores a.
+          </p>
+        </div>
+
+        <div class="col-md-4">
+
+        <div class="sidebar p-4">
+          <h4>Must Reads</h4>
+          <h6>Exploring Glp-1 For Weight Loss And Diabetes Management</h6>
+          <p class="sidebar__det">Picture a hormone that not only assists in regulating your blood sugar levels but also supports weight loss.</p>
+          <img src="./assets/images/bodybuider.avif" alt="">
+          <p class="read__more">read more <i class="fa-solid fa-angle-right"></i></p>
+
+          
+          <h4>Must Reads</h4>
+          <h6>Exploring Glp-1 For Weight Loss And Diabetes Management</h6>
+          <p class="sidebar__det">Picture a hormone that not only assists in regulating your blood sugar levels but also supports weight loss.</p>
+          <img src="./assets/images/bodybuider.avif" alt="">
+          <p class="read__more">read more <i class="fa-solid fa-angle-right"></i></p>
+        
+        </div>
+
+
+        </div>
+
+        </div>
+    </div>
+
+    <footer class="footer ">
+      <div class="container py-5">
+   
+        <div class="row">
+          <div class="col-md-2">
+            <img src="./assets/images/weight-logo.svg" width="150" alt="">
+          </div>
+
+          <div class="col-md-3 text-light">
+            <ul class="list-unstyled">
+              <li>Home</li>
+              <li>Advertiser Disclosure</li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 text-light">
+            <ul class="list-unstyled">
+              <li>Knowledge</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 text-light">Terms of Use</div>
+          <div class="col-md-2 text-light">Privacy Policy</div>
+        </div>
+        <div class="text-light text-center ms-5 py-5">Copyright © 2025 BestWeightLossMeds. All Rights Reserved.</div>
+      </div>
+    </footer>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"></script>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

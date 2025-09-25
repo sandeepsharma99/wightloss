@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #0374ef;
+    --bg-tertiary: #1c1b42;
+
+    --text-primary: #ffffff;
+    --text-secondary: #707070;
+    --text-tertiary: #2d2d2d;
+    --text-fourth: #000000;
+}
+
+.topnav {
+    font-size: 14px;
+    padding: 5px 0;
+    margin-bottom: 5px !important;
+}
+
+.hero {
+  background-image: url("../images/image.avif");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+  width: 100%;
+  min-height: 300px; 
+  position: relative;
+  padding: 3rem 0; 
+}
+
+
+.tag__icon {
+    color: var(--bg-secondary);
+}
+
+.mycard {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+}
+
+.fa-star {
+  color: rgb(25, 182, 122);
+  font-size: 15px;
+}
+
+.count {
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .count {
+    left: 10px; /* Adjust badge for small screens */
+    top: 10px;
+  }
+}
+
+
+.sidebar {
+    background-color: #ddd;
+}
+
+.sidebar__card img {
+    width: 100%;
+}
+
+.sidebar__det {
+    transition: all 0.5ms ease;
+}
+
+.sidebar__det:hover {
+    color: var(--bg-secondary);
+    cursor: pointer;
+}
+
+.read__more {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.read__more:hover .fa-angle-right {
+    transform: translateX(2px);
+    color: var(--bg-secondary);
+}
+
+.footer {
+    background-color: var(--text-fourth);
+}
